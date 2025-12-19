@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/hits", "destination": "/api/hits" },
-    { "source": "/api/heartbeat", "destination": "/api/heartbeat" }
+    { "source": "/api/:match*", "destination": "/api/index" }
   ]
 }
